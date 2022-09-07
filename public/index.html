@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <ul class="pages">
+    <li class="chat page">
+      <div class="chatArea">
+        <ul class="messages"></ul>
+      </div>
+      <input class="inputMessage" placeholder="Type here..."/>
+    </li>
+    <li class="login page">
+      <div class="form">
+        <h3 class="title">Welcome to Webchat</h3>
+        <input class="email" type="text" maxlength="20" ng-model="item.email" placeholder="email"/>
+        <input class="user" type="text" maxlength="6" ng-model="item.user" placeholder="username"/>
+        <input class="password" type="text" maxlength="6" ng-model="item.password" placeholder="password"/>
+        <button class="login">Login</button>
+      </div>
+      </div>
+    </li>
+  </ul>
+  <div id="app">
+    <div style="height:1000px;"></div>
+  </div>
+  <script src="../script.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/main.js"></script>
+
+
+</body>
+</html>

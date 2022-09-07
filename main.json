@@ -1,0 +1,5 @@
+[
+    { "id":1 ,"user":"Admin" , "email":"Admin@gmail.com" , "password":"Admin", "Permission":"Admin"},
+    { "id":2 ,"user":"Chris" , "email":"Chris@gmail.com" , "password":"Chris", "Permission":"super_admin"},
+    { "id":3 ,"user":"Mike" , "email":"Mike@gmail.com" , "password":"Mike", "Permission":"member"}
+]
